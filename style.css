@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(255,255,255);
+     font-family: "Lexend", sans-serif;
+}
+header{
+    border-bottom:1px solid rgba(17,17,17,0.1);
+}
+ header #navbar{
+    position:sticky;
+    top:0;
+    width:100%;
+    height:137px;
+    background-color:rgb(249, 247, 243);
+}
+#nav_btn{
+    background: rgb(180, 244, 97);
+    border:1px solid rgb(180, 244, 97);
+    height:50px;
+    color:rgb(17,17,17);
+}
+.nav_h2{
+    color:rgb(17,17,17);
+}
+.balance_nav{
+    color:rgba(17,17,17,0.7);
+}
+#btn_donate{
+    background-color: rgb(180, 244, 97);
+    border:1px solid rgb(180, 244, 97);
+    color:rgb(17,17,17);
+    height:57px;
+}
+#btn_history{
+    border:1px solid rgba(17,17,17,0.3);
+    background-color: rgb(255,255,255);
+    color:rgba(17,17,17,0.7);
+    height:57px;
+}
+
+main .container{
+    width:1140px;
+    height:453px;
+    box-sizing: border-box;
+    border:1px solid rgba(17,17,17,0.1);
+    box-shadow: 5px 3px 5px 3px rgba(0,0,0,0.05);
+
+background: rgb(255, 255, 255);
+}
+main .container .img_container{
+    width:522px;
+    height:389px;
+}
+main .container .article{
+    width:522px;
+    height:389px;
+}
+main .container .article .current_amount{
+    width:135px;
+    height:44px;
+    background-color: rgba(17,17,17,0.05);
+}
+main .container .article .current_amount h3{
+    color:rgba(17,17,17,0.7);
+}
+main .container .article .description h2{
+    color:rgb(17,17,17);
+}
+main .container .article .description p{
+    color:rgba(17,17,17,0.7);
+}
+main .container .article .input_part input{
+    border:1px solid rgba(17,17,17,0.1);
+    box-sizing: border-box;
+}
+main .container .article .input_part input::placeholder{
+    color:rgba(17,17,17,0.4);
+}
+main .container .article .input_part .btn_main_donation{
+    background-color: rgb(180, 244, 97);
+    color:rgb(17,17,17);
+}
+main #second_container{
+    height:505px;
+}
+main #third_container{
+    height:531px;
+}
+#footer{
+    width:100%;
+    height:146px;
+    background-color: rgb(249, 247, 243);
+}
+#spacial_case{
+    width:1140px;
+    height:136px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.02);
+}
+#spacial_case h3{
+    color:rgb(17,17,17);
+}
+#spacial_case p{
+    color:rgba(17,17,17,0.7);
+}
+#history_btn_donate{
+    border:1px solid rgba(17,17,17,0.3);
+    background-color: rgb(255,255,255);
+    color:rgba(17,17,17,0.7);
+    height:57px;
+}
+#history_btn_history{
+    background-color: rgb(180, 244, 97);
+    border:1px solid rgb(180, 244, 97);
+    height:57px;
+    color:rgb(17,17,17);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="sticky top-0 z-10 bg-opacity-10 backdrop-blur-lg pb-5">
+        <nav>
+            <div class="navbar bg-base-100" id="navbar">
+                <div class="navbar-start">
+                  <div class="ml-32">
+                        <button class="btn px-8 py-3 rounded-lg text-xl font-semibold" id="nav_btn">Blog</button>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                  <img src="images/logo.png" alt="">
+                  <h2 class="nav_h2 ml-5 text-xl font-semibold">Donate Bangladesh</h2>
+                </div>
+                <div class="navbar-end mr-32">
+                  <img src="images/coin.png" alt="">
+                  <h2 id="balance_nav" class="ml-4 text-xl font-medium">5500 BDT</h2>
+                </div>
+              </div>
+        </nav>
+        <section class="donation flex justify-center gap-4 mt-10">
+            <button id="btn_donate"class="btn px-8 py-4 rounded-lg text-xl font-semibold">Donation</button>
+            <button id="btn_history" class="btn px-8 py-4 rounded-lg text-xl font-medium">History</button>
+        </section>
+    </header>
+    <main class="mx-36 mt-8">
+        <div class="container rounded-2xl flex gap-8 mx-auto p-8 mb-8">
+          <div class="img_container">
+            <img class="h-full w-full" src="images/noakhali.png" alt="">
+          </div>
+          <div class="article">
+              <div class="current_amount text-center pt-3 pb-10 rounded-lg">
+                <img class="inline" src="images/coin.png" alt="">
+                <h3 class="inline text-base">0 BDT</h3>
+              </div>
+              <div class="description mt-4">
+                <h2 class="text-xl font-bold">Donate for Flood at Noakhali, Bangladesh</h2>
+                <p class="mt-4 leading-6 text-base font-light text-justify"> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+              </div>
+              <div class="input_part">
+                <input class="w-full mt-6 h-14 pl-5 rounded-lg" type="text" placeholder="Write Donation Amount">
+                <button class=" btn mt-4 w-full h-14 text-xl font-semibold btn_main_donation">Donate Now</button>
+              </div>
+          </div>
+        </div>
+        <div id="second_container" class="container rounded-2xl flex gap-8 mx-auto p-8 mb-8">
+          <div class="img_container">
+            <img class="w-full" src="images/feni.png" alt="">
+          </div>
+          <div class="article">
+              <div class="current_amount text-center pt-3 pb-10 rounded-lg">
+                <img class="inline" src="images/coin.png" alt="">
+                <h3 class="inline text-base">600 BDT</h3>
+              </div>
+              <div class="description mt-4">
+                <h2 class="text-xl font-bold">Donate for Flood Relief in Feni,Bangladesh</h2>
+                <p class="mt-4 leading-6 text-base font-light text-justify"> The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+              </div>
+              <div class="input_part">
+                <input class="w-full mt-6 h-14 pl-5 rounded-lg" type="text" placeholder="Write Donation Amount">
+                <button class=" btn mt-5 w-full h-14 text-xl font-semibold btn_main_donation">Donate Now</button>
+              </div>
+          </div>
+        </div>
+        <div id="third_container" class="container rounded-2xl flex gap-8 mx-auto p-8 mb-8">
+          <div class="img_container">
+            <img class="w-full" src="images/quota-protest.png" alt="">
+          </div>
+          <div class="article">
+              <div class="current_amount text-center pt-3 pb-10 rounded-lg">
+                <img class="inline" src="images/coin.png" alt="">
+                <h3 class="inline text-base">2400 BDT</h3>
+              </div>
+              <div class="description mt-4">
+                <h2 class="text-xl font-bold">Aid for Injured in the Quota Movement</h2>
+                <p class="mt-4 leading-6 text-base font-light text-justify"> The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+              </div>
+              <div class="input_part">
+                <input class="w-full mt-6 h-14 pl-5 rounded-lg" type="text" placeholder="Write Donation Amount">
+                <button class=" btn mt-5 w-full h-14 text-xl font-semibold btn_main_donation">Donate Now</button>
+              </div>
+          </div>
+        </div>
+    </main>
+    <footer id="footer" class="mt-20"></footer>
+</body>
+</html>
