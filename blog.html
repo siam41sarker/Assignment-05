@@ -11,6 +11,9 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--Icon CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
 </head>
 <body>
     <header class="sticky top-0 z-10 bg-opacity-10 backdrop-blur-lg pb-5">
@@ -18,7 +21,7 @@
             <div class="navbar bg-base-100" id="navbar">
                 <div class="navbar-start">
                   <div class="ml-32">
-                        <button class="btn px-8 py-3 rounded-lg text-xl font-semibold" id="nav_btn">Blog</button>
+                        <button class="btn px-8 py-3 rounded-lg text-xl font-semibold" id="nav_btn">Home</button>
                   </div>
                 </div>
                 <div class="navbar-center">
@@ -31,15 +34,54 @@
                 </div>
               </div>
         </nav>
-        <section class="donation flex justify-center gap-4 mt-10">
-            <button id="btn_donate"class="btn px-8 py-4 rounded-lg text-xl font-semibold">Donation</button>
-            <button id="btn_history" class="btn px-8 py-4 rounded-lg text-xl font-medium">History</button>
-        </section>
     </header>
-    <!--Donation part starts-->
     <main id="main_section" class="mx-36 mt-8">
-        
+        <div class="flex">
+            <h1 class="text-3xl font-bold text-black">Important FAQ</h1>
+            <i class="fa-light fa-comment-question text-4xl ml-2"></i>
+        </div>
+        <div id="question_one" class="quistion_part mt-4 rounded-t-lg flex justify-between items-center">
+            <div id="div1" class="question">
+                <h1 class="ml-5">What is the Document Object Model (DOM)?</h1>
+                <p id="p1" class="ml-5 hidden" style="color:green"></p>
+                <textarea id="ans1" class="ml-5 mt-1 hidden" cols="40" rows="2" placeholder="Write your answer here"></textarea>
+                <button id="btn1" class="btn hidden mb-20">Ans</button>
+            </div>
+            <i id="i1d" class="fa-solid fa-chevron-down mr-5"></i>
+            <i id="i1u" class="fa-solid fa-chevron-up hidden mr-5"></i>
+        </div>
+        <div id="question_two" class="quistion_part rounded-t-lg flex justify-between items-center">
+            <div class="question">
+                <h1 class="ml-5 text-black">How do you select an element from DOM?</h1>
+                <p id="p2" class="ml-5 hidden" style="color:green"></p>
+                <textarea id="ans2" class="ml-5 mt-1 hidden" cols="40" rows="2" placeholder="Write your answer here"></textarea>
+                <button id="btn2" class="btn hidden mb-20">Ans</button>
+            </div>
+            <i id="i2d" class="fa-solid fa-chevron-down mr-5"></i>
+            <i id="i2u" class="fa-solid fa-chevron-up hidden mr-5"></i>
+        </div>
+        <div id="question_three" class="quistion_part rounded-t-lg flex justify-between items-center">
+            <div class="question">
+                <h1 class="ml-5 text-black">What is event delegation in the context of the DOM, and why is it useful?</h1>
+                <p id="p3" class="ml-5 hidden" style="color:green"></p>
+                <textarea id="ans3" class="ml-5 mt-1 hidden" cols="40" rows="2" placeholder="Write your answer here"></textarea>
+                <button id="btn3" class="btn hidden mb-20">Ans</button>
+            </div>
+            <i id="i3d" class="fa-solid fa-chevron-down mr-5"></i>
+            <i id="i3u" class="fa-solid fa-chevron-up hidden mr-5"></i>
+        </div>
+        <div id="question_four" class="quistion_part rounded-b-lg rounded-t-lg flex justify-between items-center">
+            <div class="question">
+                <h1 class="ml-5 text-black">How do you manipulate an element's attributes and styles using the DOM?</h1>
+                <p id="p4" class="ml-5 hidden" style="color:green"></p>
+                <textarea id="ans4" class="ml-5 mt-1 hidden" cols="40" rows="2" placeholder="Write your answer here"></textarea>
+                <button id="btn4" class="btn hidden mb-20">Ans</button>
+            </div>
+            <i id="i4d" class="fa-solid fa-chevron-down mr-5"></i>
+            <i id="i4u" class="fa-solid fa-chevron-up hidden mr-5"></i>
+        </div>
     </main>
-    <footer id="footer" class="mt-20"></footer>
+    <footer></footer>
+    <script src="blog.js"></script>
 </body>
 </html>

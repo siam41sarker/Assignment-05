@@ -34,6 +34,7 @@ header{
 }
 #btn_history{
     border:1px solid rgba(17,17,17,0.3);
+    background-color: rgb(255,255,255);
     color:rgba(17,17,17,0.7);
     height:57px;
 }
@@ -43,8 +44,7 @@ main .container{
     box-sizing: border-box;
     border:1px solid rgba(17,17,17,0.1);
     box-shadow: 5px 3px 5px 3px rgba(0,0,0,0.05);
-
-background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
 }
 main .container .img_container{
     width:522px;
@@ -101,6 +101,13 @@ main #third_container{
 }
 #spacial_case p{
     color:rgba(17,17,17,0.7);
+}
+.quistion_part{
+    width:1260px;
+    height:110px;
+    box-sizing: border-box;
+    border:1px solid rgba(17,17,17,0.2);
+    background: rgb(255, 255, 255);
 }
 
 
