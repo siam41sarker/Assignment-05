@@ -8,6 +8,14 @@ const donate_fenni = document.getElementById("btn_donation2");
 const donate_quota = document.getElementById("btn_donation3");
 const spacial_case = document.getElementById("spacial_case");
 const footer = document.getElementById("footer");
+//blog section shifting
+const nav_btn = document.getElementById("nav_btn");
+nav_btn.addEventListener('click',function(event)
+    {
+        event.preventDefault();
+        window.location.href = "/blog.html";
+    })
+//blog section finished
 btn_history.addEventListener('click',function(event)
     {
         event.preventDefault();

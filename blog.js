@@ -169,3 +169,11 @@ i4u.addEventListener('click',function(event)
         p4.innerText = "";
         ans4.value="";
     })
+//blog home section shifting
+const nav_btn = document.getElementById("nav_btn");
+nav_btn.addEventListener('click',function(event)
+    {
+        event.preventDefault();
+        window.location.href = "/index.html";
+    })
+//blog home section finished
