@@ -23,7 +23,7 @@ i1d.addEventListener('click',function(event)
         event.preventDefault();
         i1d.classList.add("hidden");
         i1u.classList.remove("hidden");
-        q1.style.height = "150px";
+        q1.style.height = "200px";
         q1.classList.remove("items-center");
         q1.classList.add("pt-10");
         ans1.classList.remove("hidden");
@@ -61,7 +61,7 @@ i2d.addEventListener('click',function(event)
         event.preventDefault();
         i2d.classList.add("hidden");
         i2u.classList.remove("hidden");
-        q2.style.height = "150px";
+        q2.style.height = "200px";
         q2.classList.remove("items-center");
         q2.classList.add("pt-10");
         ans2.classList.remove("hidden");
@@ -99,7 +99,7 @@ i3d.addEventListener('click',function(event)
         event.preventDefault();
         i3d.classList.add("hidden");
         i3u.classList.remove("hidden");
-        q3.style.height = "150px";
+        q3.style.height = "200px";
         q3.classList.remove("items-center");
         q3.classList.add("pt-10");
         ans3.classList.remove("hidden");
@@ -137,7 +137,7 @@ i4d.addEventListener('click',function(event)
         event.preventDefault();
         i4d.classList.add("hidden");
         i4u.classList.remove("hidden");
-        q4.style.height = "150px";
+        q4.style.height = "200px";
         q4.classList.remove("items-center");
         q4.classList.add("pt-10");
         ans4.classList.remove("hidden");
