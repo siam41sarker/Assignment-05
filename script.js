@@ -13,7 +13,7 @@ const nav_btn = document.getElementById("nav_btn");
 nav_btn.addEventListener('click',function(event)
     {
         event.preventDefault();
-        window.location.href = "/blog.html";
+        window.location.href = "./blog.html";
     })
 //blog section finished
 btn_history.addEventListener('click',function(event)

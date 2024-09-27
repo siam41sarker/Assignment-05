@@ -174,6 +174,6 @@ const nav_btn = document.getElementById("nav_btn");
 nav_btn.addEventListener('click',function(event)
     {
         event.preventDefault();
-        window.location.href = "/index.html";
+        window.location.href = "./index.html";
     })
 //blog home section finished
